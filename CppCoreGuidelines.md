@@ -505,7 +505,7 @@ The second version leaves the reader guessing and opens more possibilities for u
 ##### Example, bad
 
 This loop is a restricted form of `std::find`:
-
+```cpp
     void f(vector<string>& v)
     {
         string val;
@@ -520,6 +520,7 @@ This loop is a restricted form of `std::find`:
         }
         // ...
     }
+```
 
 ##### Example, good
 
